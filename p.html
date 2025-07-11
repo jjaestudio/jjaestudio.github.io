@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What's your nodon? - Game Builder Garage</title>
+  <link rel="stylesheet" href="p.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="gbg-container">
+    <!-- Main Character Card -->
+    <div class="character-card">
+      <div class="card-header">
+        <img src="assets/logo/whichnodonareyou.png" alt="Which Nodon Are You?" class="floating-image">
+        <!-- <img src="assets/logo/gbg.webp" alt="GBG" class="floating-image-right"> -->
+        <h1 class="character-title">Mermaid Nodon</h1>
+      </div>
+
+      <div class="character-showcase">
+        <div class="character-image-container">
+          <div class="image-frame">
+            <img src="mermaid.png" alt="Mermaid Nodon" class="character-image" />
+          </div>
+          <div class="tagline-box">
+            <p class="tagline">Sings in .wav, thinks in .json.<br>Adds sparkle shaders to ethics</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="description-panel">
+        <div class="description-content">
+          <p>Your entire life is wired through an invisible <strong>AND-Nodon of destiny</strong>. You hand-craft moral
+            quests while humming the GBG title-screen music and leaving a trail of bioluminescent TODO comments.</p>
+        </div>
+      </div>
+
+
+      <!-- Relationships in GBG Style -->
+      <div class="relationships-section">
+        <h3 class="section-title">🤝 Nodon Network 🤝</h3>
+        <div class="relationship-grid">
+          <div class="relationship-card best-friend">
+            <div class="relationship-header">Best Friend</div>
+            <div class="relationship-image">
+              <img id="best-friend-img" src="alien.png" alt="Alien Nodon" />
+            </div>
+            <div class="relationship-name">Alien Nodon</div>
+            <!-- <div class="connection-strength">★★★★★</div> -->
+          </div>
+
+          <div class="relationship-card rival">
+            <div class="relationship-header">Friendly Rival</div>
+            <div class="relationship-image">
+              <img id="rival-img" src="fluffball.png" alt="Fluffball Nodon" />
+            </div>
+            <div class="relationship-name">Fluffball Nodon</div>
+            <!-- <div class="connection-strength">⚡⚡⚡</div> -->
+          </div>
+        </div>
+
+        <div class="game-code-bottom">
+          <div class="game-code">
+            <p>Try <b>Which Nodon Are you?</b> On Game Builder Garage:</p>
+            <p>G000-123-4567</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Share Section with GBG Styling -->
+    <div class="share-section">
+      <h3 class="share-title">📤 Share Your Nodon!</h3>
+      <div class="share-buttons">
+        <button class="gbg-btn copy-btn" onclick="copyToClipboard()">
+          🔗 Copy Link
+        </button>
+        <button class="gbg-btn twitter-btn" onclick="shareToTwitter()">
+          🐦 Twitter
+        </button>
+        <button class="gbg-btn discord-btn" onclick="window.open('discord.gg/dmgPm3wes2', '_blank')">
+          💬 Join our Discord
+        </button>
+        <button class="gbg-btn youtube-btn" onclick="window.open('https://youtube.com/@jJaeStudio', '_blank')">
+          🎥 Watch GBG Livestream
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="gbg-footer">
+      <div class="creators-section">
+        <p><strong>Created by:</strong></p>
+        <p>
+          <a href="http://youtube.com/@jJaeStudio" target="_blank" class="creator-link">
+            jJae Studio
+          </a>
+          <a href="http://youtube.com/@zertolurian" target="_blank" class="creator-link">
+            Zertolurian
+          </a>
+          <a href="https://www.youtube.com/@mewnohimitsu" target="_blank" class="creator-link">
+            Mew no Himitsu
+          </a>
+        </p>
+      </div>
+      <!-- <div class="game-info">
+        <p>Personality Quiz Result • Game Builder Garage Style</p>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- <script type="module" src="MBTI_Nodon_Descriptions.js"></script> -->
+  <script type="module" src="p.js"></script>
+</body>
+
+</html>
