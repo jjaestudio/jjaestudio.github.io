@@ -39,7 +39,7 @@ function getNodon() {
 }
 
 function getImageUrl(nodonName) {
-  return `assets/nodon-images/${nodonName}.png`;
+  return `assets/nodon-images/${nodonName.toLowerCase()}.png`;
 }
 
 function getNodonInfo() {
