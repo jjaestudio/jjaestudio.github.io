@@ -1,0 +1,93 @@
+/* Import GBG-style font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Marvin Round';
+    src: url('path-to-font/MarvinRound-Regular.woff2') format('woff2'),
+        url('path-to-font/MarvinRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* GBG Color Palette */
+    --gbg-yellow: #FFD700;
+    --gbg-purple: #8B5CF6;
+    --gbg-turquoise: #06B6D4;
+    --gbg-pink: #EC4899;
+    --gbg-orange: #F97316;
+    --gbg-green: #10B981;
+    --gbg-blue: #3B82F6;
+    --gbg-red: #EF4444;
+
+    /* Background colors */
+    --gbg-bg-primary: #1E293B;
+    --gbg-bg-secondary: #334155;
+    --gbg-bg-light: #F8FAFC;
+
+    /* Text colors */
+    --gbg-text-dark: #0F172A;
+    --gbg-text-light: #FFFFFF;
+    --gbg-text-muted: #64748B;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: repeating-linear-gradient(45deg,
+            var(--gbg-purple),
+            var(--gbg-purple) 40px,
+            var(--gbg-turquoise) 40px,
+            var(--gbg-turquoise) 80px,
+            var(--gbg-pink) 80px,
+            var(--gbg-pink) 120px,
+            var(--gbg-yellow) 120px,
+            var(--gbg-yellow) 160px);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+/* Container styles */
+.coming-soon-container {
+    text-align: center;
+    background: #ffffff;
+    /* White background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Logo styles */
+.studio-icon {
+    width: 100px;
+    /* Fixed width for the logo */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 20px;
+    /* Space below the logo */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em;
+    color: #333333;
+    /* Dark text color */
+    margin: 10px 0;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    color: #666666;
+    /* Slightly lighter text color */
+    margin: 0;
+}
