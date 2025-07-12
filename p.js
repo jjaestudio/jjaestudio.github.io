@@ -1,6 +1,5 @@
 // Import MBTI_Nodon_Descriptions
-import './MBTI_Nodon_Descriptions.js';
-import { MBTI_Nodon_Descriptions } from './MBTI_Nodon_Descriptions.js';
+import { MBTI_Nodon_Descriptions } from './MBTI_Nodon_Descriptions_v2.js';
 
 function copyToClipboard() {
   navigator.clipboard.writeText(window.location.href);
