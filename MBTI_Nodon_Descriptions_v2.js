@@ -42,7 +42,7 @@ export const MBTI_Nodon_Descriptions = [
     Blurb2: "",
     Description: `Gentle and quietly protective, you hover where you're needed most. Like the UFO, you don't make a fuss—but you never miss a thing. You’re the unseen shield, always watching from above.`,
     FriendlyNodon: "Fluffball",
-    ArchNodon: "Sumo",
+    ArchNodon: "Sumo Wrestler",
   },
   {
     MBTI: "ISFP",
